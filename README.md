@@ -1,2 +1,2 @@
-# Topic-Modelling
-Introduction to Topic Modelling in Political Science
+# Introduction to Topic Modelling in Political Science
+
