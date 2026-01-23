@@ -16,6 +16,7 @@ library(readr)
 library(tictoc)
 library(htmltools)
 library(reticulate)
+library(bertopicr)
 
 
 # Might need to configure this on Mac
@@ -33,7 +34,7 @@ use_condaenv("r-bertopic", required = TRUE)
 py_config() 
 
 # Now load the BERTopic package and install the required packages in Python
-library(bertopicr)
+
 reticulate::conda_install("bertopic", 
                           envname = "/Users/rafaelc-g/miniconda3/envs/r-bertopic") # This should be your environment name fro py_config()
 
